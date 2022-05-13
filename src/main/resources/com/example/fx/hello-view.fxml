@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fx.Controller">
+   <children>
+      <Button fx:id="btnMain" layoutX="561.0" layoutY="309.0" mnemonicParsing="false" onAction="#onBtnAction" style="-fx-background-color: black;" text="Oblicz koszt" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="promien" layoutX="209.0" layoutY="194.0" prefHeight="51.0" prefWidth="107.0" />
+      <TextField fx:id="wysokosc" layoutX="587.0" layoutY="194.0" prefHeight="51.0" prefWidth="107.0" />
+      <TextField fx:id="grubosc" layoutX="978.0" layoutY="194.0" prefHeight="51.0" prefWidth="107.0" />
+      <TextArea layoutX="33.0" layoutY="39.0" prefHeight="62.0" prefWidth="1227.0" text="                                                     Podaj promień i wysokość walca oraz grubość blachy: [cm]">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="wynik" layoutX="209.0" layoutY="508.0" prefHeight="51.0" prefWidth="149.0" />
+      <TextField fx:id="error" layoutX="771.0" layoutY="537.0" prefHeight="109.0" prefWidth="436.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect></TextField>
+      <TextField fx:id="wynik2" layoutX="209.0" layoutY="591.0" prefHeight="51.0" prefWidth="149.0" />
+      <TextField fx:id="cena" layoutX="386.0" layoutY="508.0" prefHeight="51.0" prefWidth="149.0" />
+      <TextField fx:id="cenaD" layoutX="386.0" layoutY="591.0" prefHeight="51.0" prefWidth="149.0" />
+      <AnchorPane layoutX="52.0" layoutY="449.0" prefHeight="0.0" prefWidth="173.0" />
+      <TextArea layoutX="22.0" layoutY="508.0" prefHeight="51.0" prefWidth="149.0" text="Blacha stalowa:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="22.0" layoutY="591.0" prefHeight="51.0" prefWidth="149.0" text="Blacha stalowa &#10;nierdzewna:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="209.0" layoutY="424.0" prefHeight="51.0" prefWidth="149.0" text="Ciężar materiału: [Kg]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="386.0" layoutY="424.0" prefHeight="51.0" prefWidth="149.0" text="Koszt materiału: [PLN]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="794.0" layoutY="447.0" prefHeight="51.0" prefWidth="390.0" text="                           Error log:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="209.0" layoutY="126.0" prefHeight="51.0" prefWidth="107.0" text="   Promień:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="587.0" layoutY="126.0" prefHeight="51.0" prefWidth="107.0" text="  Wysokość:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="978.0" layoutY="126.0" prefHeight="51.0" prefWidth="107.0" text="   Grubość:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
