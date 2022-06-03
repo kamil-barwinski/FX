@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http:/>/javafx.com/javafx/16" xmlns:fx="http:javafx.com/fxml/1" fx:controller="com.example.fx.ControllerLicznik">
+    <children>
+        <Button fx:id="btnMain" layoutX="220.0" layoutY="255.0" mnemonicParsing="false" onAction="#onBtnAction2" style="-fx-background-color: black;" text="Kliknij mnie" textFill="#ee1a1a">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtLicznik" alignment="CENTER" layoutX="169.0" layoutY="87.0" prefHeight="113.0" prefWidth="263.0">
+            <font>
+                <Font size="45.0" />
+            </font></TextField>
+    </children>
+</AnchorPane>
